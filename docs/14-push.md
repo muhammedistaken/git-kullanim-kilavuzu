@@ -1,10 +1,6 @@
 # 14. git push
 
-`git push`, yerel makinada## İpuçları
-- `--force-with-lease`, `--force`'a göre daha güvenlidir; başkalarının güncel dalını korur.
-- Push etmeden önce `git fetch` ve `git log origin/[dal]` ile sunucudaki son durumu kontrol edin.
-
-**Önceki**: [13. git revert](13-revert.md) &nbsp;|&nbsp; **Sonraki**: [15. git pull](15-pull.md)ğınız commit’leri uzak depoya (örneğin GitHub, GitLab) gönderir. Böylece ekip arkadaşlarınız veya sunucu, sizin en güncel kodunuzu alır.
+`git push`, yerel makinada yaptığınız commit’leri uzak depoya (örneğin GitHub, GitLab) gönderir. Böylece ekip arkadaşlarınız veya sunucu, sizin en güncel kodunuzu alır.
 
 ## Ne Zaman Kullanılır?
 - Local’de geliştirdiğiniz yeni özellikleri veya düzeltmeleri paylaşmak istediğinizde
@@ -50,5 +46,4 @@
 - `--force-with-lease`, `--force`’a göre daha güvenlidir; başkalarının güncel dalını korur.
 - Push etmeden önce `git fetch` ve `git log origin/[dal]` ile sunucudaki son durumu kontrol edin.
 
----
-_Bu komut, yaptığınız işleri ekip ortamına güvenli ve kontrollü bir şekilde iletmenizi sağlar._
+**Önceki**: [13. git revert](13-revert.md) &nbsp;|&nbsp; **Sonraki**: [15. git pull](15-pull.md)

@@ -1,11 +1,6 @@
 # 18. git tag
 
-Git’de "tag" (etiket) komutu, proj## İpuçları ve Dikkat Edilmesi Gerekenler
-- Hafif tag'ler sadece işaret koyar; sürüm geçmişinde kim, ne zaman yazdığı tutulmaz.
-- Annotated tag'ler genellikle sürüm yayınlarında tercih edilir.
-- Semantic Versioning ("vMAJOR.MINOR.PATCH" – örneğin `v2.1.3`) kullanarak net sürüm numaraları oluşturun.
-
-**Önceki**: [17. git stash](17-stash.md) &nbsp;|&nbsp; **Sonraki**: [19. git remote](19-remote.md)önemli bir andan ya da sürümden hemen sonra işaret koymanızı sağlar. Mesela bir uygulamayı 1.0 sürümünde canlıya aldınız diyelim; bu noktayı kolayca işaretlemek için tag kullanırsınız.
+Git’de "tag" (etiket) komutu, projenizde önemli bir andan ya da sürümden hemen sonra işaret koymanızı sağlar. Mesela bir uygulamayı 1.0 sürümünde canlıya aldınız diyelim; bu noktayı kolayca işaretlemek için tag kullanırsınız.
 
 ## Ne işe yarar?
 - Geçmişteki bir sürüme hızlıca dönmeye yardım eder.
@@ -59,5 +54,4 @@ Tüm yerel etiketleri uzak sunucuya bir kerede taşır.
 - Annotated tag’ler genellikle sürüm yayınlarında tercih edilir.
 - Semantic Versioning ("vMAJOR.MINOR.PATCH" – örneğin `v2.1.3`) kullanarak net sürüm numaraları oluşturun.
 
----
-_Bu örnekler günlük projelerde denenmiş, anlaşılır bir dille yazılmıştır._
+**Önceki**: [17. git stash](17-stash.md) &nbsp;|&nbsp; **Sonraki**: [19. git remote](19-remote.md)

@@ -1,10 +1,6 @@
 # 19. git remote
 
-`git remote`, p## İpuçları
-- Fork ile çalışırken `origin` sizin fork'unuz, `upstream` orijinal depo olsun.
-- SSH yerine HTTPS kullanıyorsanız, her pull/push'ta parola girmeniz gerekebilir.
-
-**Önceki**: [18. git tag](18-tag.md) &nbsp;|&nbsp; **Sonraki**: [20. git config](20-config.md)ze bağlı uzak depoları (remote) gösterir, ekler veya siler. Uzak depo, kodunuzu paylaştığınız sunucudur.
+`git remote`, projenize bağlı uzak depoları (remote) gösterir, ekler veya siler. Uzak depo, kodunuzu paylaştığınız sunucudur.
 
 ## Ne Zaman Kullanılır?
 - Hangi uzak depoların bağlı olduğunu görmek istediğinizde
@@ -38,8 +34,7 @@
 ```
 
 ## İpuçları
-- Fork ile çalışırken `origin` sizin fork’unuz, `upstream` orijinal depo olsun.
-- SSH yerine HTTPS kullanıyorsanız, her pull/push’ta parola girmeniz gerekebilir.
+- Fork ile çalışırken `origin` sizin fork'unuz, `upstream` orijinal depo olsun.
+- SSH yerine HTTPS kullanıyorsanız, her pull/push'ta parola girmeniz gerekebilir.
 
----
-_Bu komut, uzak depo ayarlarınızı yönetmek için gereklidir._
+**Önceki**: [18. git tag](18-tag.md) &nbsp;|&nbsp; **Sonraki**: [20. git config](20-config.md)

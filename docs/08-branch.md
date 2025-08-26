@@ -21,16 +21,16 @@ git branch [seçenekler] [dal_adı]
     git branch feature-yeni
 ```
 2. Tüm dalları görmek:
-   ```bash
-git branch -a
+```bash
+    git branch -a
 ```
 3. Dal silmek:
-   ```bash
-git branch -d feature-yeni
+```bash
+    git branch -d feature-yeni
 ```
 4. Başka bir commit’ten dal açmak:
-   ```bash
-git branch acil-fix abc1234
+```bash
+    git branch acil-fix abc1234
 ```
 
 ## İpuçları
