@@ -8,33 +8,33 @@
 
 ## Kullanımı
 ```bash
-git rebase <hedef_dal>
+    git rebase <hedef_dal>
 ```
 - `<hedef_dal>`: Değişikliklerin taşınacağı dal (örn. `main`).
 
 ## Örnekler
 1. `feature` dalını `main` üzerine rebase etmek:
-   ```bash
-git checkout feature
- git fetch origin
- git rebase origin/main
+```bash
+    git checkout feature
+    git fetch origin
+    git rebase origin/main
 ```
 2. İnteraktif rebase ile commit’leri düzenlemek:
-   ```bash
-git rebase -i HEAD~3
+```bash
+    git rebase -i HEAD~3
 ```
    Son 3 commit üzerinde `pick`, `squash` veya `edit` yapabilirsiniz.
 
 ## Çakışma Durumu
 - Çakışma olursa Git durur ve dosyalarda `<<<<<<<` işareti gösterir.
 - Çakışmaları düzelttikten sonra:
-  ```bash
-git add .
- git rebase --continue
+```bash
+    git add .
+    git rebase --continue
 ```
 - Vazgeçmek isterseniz:
-  ```bash
-git rebase --abort
+```bash
+    git rebase --abort
 ```
 
 ## İpuçları

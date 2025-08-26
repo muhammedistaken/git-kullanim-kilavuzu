@@ -14,30 +14,30 @@ git config [<options>] [<key> [<value>]]
 
 ## Temel Örnekler
 1. Kullanıcı adı ayarlamak:
-   ```bash
-git config --global user.name "Ahmet Yılmaz"
+```bash
+    git config --global user.name "Ahmet Yılmaz"
 ```
 2. E-posta ayarlamak:
-   ```bash
-git config --global user.email "ahmet@example.com"
+```bash
+    git config --global user.email "ahmet@example.com"
 ```
 3. Editor olarak VS Code ayarlamak:
-   ```bash
-git config --global core.editor "code --wait"
+```bash
+    git config --global core.editor "code --wait"
 ```
 
 ## Gelişmiş Örnekler
 - Alias tanımlamak:
-  ```bash
-git config --global alias.co checkout
+```bash
+    git config --global alias.co checkout
 ```
 - Renkli çıktı ayarları:
-  ```bash
-git config --global color.ui auto
+```bash
+    git config --global color.ui auto
 ```
 - Merge tool ayarlamak:
-  ```bash
-git config --global merge.tool kdiff3
+```bash
+    git config --global merge.tool kdiff3
 ```
 
 ## İpuçları

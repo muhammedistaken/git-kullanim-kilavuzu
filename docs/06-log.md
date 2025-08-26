@@ -8,39 +8,39 @@
 
 ## Kullanımı
 ```bash
-git log
+    git log
 ```
 - Sadece özet görmek için:
-  ```bash
-git log --oneline
+```bash
+    git log --oneline
 ```
 - Merge ve branch akışını görmek için:
-  ```bash
-git log --oneline --graph --all
+```bash
+    git log --oneline --graph --all
 ```
 
 ## Örnekler
 1. Komut ile tarih, yazar ve mesajı listeleme:
-   ```bash
-git log
+```bash
+    git log
 ```
 2. Kısaltılmış tek satır görünüm:
-   ```bash
-git log --oneline
+```bash
+    git log --oneline
 ```
 3. Branch ve merge grafiklerini ASCII art ile gösterme:
-   ```bash
-git log --all --graph --decorate
+```bash
+    git log --all --graph --decorate
 ```
 4. Belirli bir dosyanın geçmişini takip etme:
-   ```bash
-git log --follow -- path/to/file.js
+```bash
+    git log --follow -- path/to/file.js
 ```
 
 ## İpuçları
 - Uzun listeyi sayfa sayfa görmek için `| less` ekleyin:
-  ```bash
-git log | less
+  ``bash
+    git log | less
 ```
 - Tarihe, yazara veya mesaj anahtar kelimesine göre filtreleyebilirsiniz.
 

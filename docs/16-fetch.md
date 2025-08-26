@@ -8,22 +8,22 @@
 
 ## Kullanımı
 ```bash
-git fetch [uzak_adı]
+    git fetch [uzak_adı]
 ```
 - `[uzak_adı]`: Genellikle `origin`.
 
 ## Örnekler
 1. Varsayılan remote’dan fetch:
-   ```bash
-git fetch
+```bash
+    git fetch
 ```
 2. Belirli bir dalı fetch (örn. `develop`):
-   ```bash
-git fetch origin develop
+```bash
+    git fetch origin develop
 ```
 3. Tüm remote’ları fetch:
-   ```bash
-git fetch --all
+```bash
+    git fetch --all
 ```
 
 ## İpuçları

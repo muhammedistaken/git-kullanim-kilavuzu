@@ -14,18 +14,18 @@ git init [klasör_adı]
 
 ## Örnekler
 1. Mevcut klasörde Git repo başlatma:
-   ```bash
-git init
+```bash
+    git init
 ```
 2. Yeni klasör açıp içinde başlatma:
-   ```bash
-mkdir yeni-projem
-cd yeni-projem
-git init
+```bash
+    mkdir yeni-projem
+    cd yeni-projem
+    git init
 ```
 3. Sadece veri klasörü olan bare (çıplak) depo oluşturma:
-   ```bash
-git init --bare sunucu-deposu.git
+```bash
+    git init --bare sunucu-deposu.git
 ```
 
 ## İpuçları

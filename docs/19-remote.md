@@ -8,7 +8,7 @@
 
 ## Kullanımı
 ```bash
-git remote [seçenekler] [ad] [url]
+    git remote [seçenekler] [ad] [url]
 ```
 - `git remote -v`: URL’leriyle birlikte tüm remote’ları listeler.
 - `git remote add <isim> <url>`: Yeni bir remote ekler (örn. `upstream`).
@@ -17,20 +17,20 @@ git remote [seçenekler] [ad] [url]
 
 ## Örnekler
 1. Uzak depoları URL ile listeleme:
-   ```bash
-git remote -v
+```bash
+    git remote -v
 ```
 2. Yeni upstream remote ekleme:
-   ```bash
-git remote add upstream https://github.com/orijinal/proje.git
+```bash
+    git remote add upstream https://github.com/orijinal/proje.git
 ```
 3. Remote silme:
-   ```bash
-git remote remove upstream
+```bash
+    git remote remove upstream
 ```
 4. Remote URL’yi değiştirme:
-   ```bash
-git remote set-url origin git@github.com:ben/proje.git
+```bash
+    git remote set-url origin git@github.com:ben/proje.git
 ```
 
 ## İpuçları

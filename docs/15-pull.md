@@ -8,32 +8,32 @@
 
 ## Kullanımı
 ```bash
-git pull [uzak_adı] [dal_adı]
+    git pull [uzak_adı] [dal_adı]
 ```
 - `[uzak_adı]`: Genellikle `origin`.
 - `[dal_adı]`: Çekmek istediğiniz branch (örn. `main`, `develop`).
 
 ## Örnekler
 1. Basit pull:
-   ```bash
-git pull
+```bash
+    git pull
 ```
    `origin` ve o anki dalı günceller.
 
 2. Rebase ile pull:
-   ```bash
-git pull --rebase
+```bash
+    git pull --rebase
 ```
    Merge yerine temiz bir geçmiş için rebase yapar.
 
 3. Belirli bir remote’dan ve daldan çekme:
-   ```bash
-git pull upstream develop
+```bash
+    git pull upstream develop
 ```
 
 4. Pull sırasında otomatik stoklama (autostash):
-   ```bash
-git pull --rebase --autostash
+```bash
+    git pull --rebase --autostash
 ```
 
 ## İpuçları

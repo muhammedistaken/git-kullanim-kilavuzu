@@ -8,30 +8,30 @@
 
 ## Kullanımı
 ```bash
-git status
+    git status
 ```
 - Özet görmek isterseniz:
-  ```bash
-git status -s
+```bash
+    git status -s
 ```
 - Branch bilgisini de görmek isterseniz:
-  ```bash
-git status -b
+```bash
+    git status -b
 ```
 
 ## Örnek Çıktı
 ```
-on branch develop
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-    modified:   app.js
+    on branch develop
+    Changes to be committed:
+    (use "git reset HEAD <file>..." to unstage)
+        modified:   app.js
 
-Changes not staged for commit:
-    modified:   index.html
+    Changes not staged for commit:
+        modified:   index.html
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-    notes.txt
+    Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+        notes.txt
 ```
 
 ## İpuçları

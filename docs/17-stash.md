@@ -8,7 +8,7 @@
 
 ## Kullanımı
 ```bash
-git stash [push|pop|apply|list|drop|clear]
+    git stash [push|pop|apply|list|drop|clear]
 ```
 - `push`: (Varsayılan) Değişiklikleri saklar.
 - `pop`: Saklanan son değişikliği uygular ve kayıttan siler.
@@ -19,27 +19,27 @@ git stash [push|pop|apply|list|drop|clear]
 
 ## Örnekler
 1. Değişiklikleri saklamak:
-   ```bash
-git stash
+```bash
+    git stash
 ```
 2. Saklama mesajı eklemek:
-   ```bash
-git stash push "login özelliği üzerinde çalışılıyor"
+```bash
+    git stash push "login özelliği üzerinde çalışılıyor"
 ```
 3. En son saklamayı geri getirmek:
-   ```bash
-git stash pop
+```bash
+    git stash pop
 ```
 4. Belirli stash’i uygulamak:
-   ```bash
-git stash apply stash@{2}
+```bash
+    git stash apply stash@{2}
 ```
 
 ## İpuçları
 - `git stash list` ile tüm saklamalarınızı görün.
 - Untracked veya ignored dosyaları da stash’e eklemek için:
-  ```bash
-git stash push --include-untracked
+```bash
+    git stash push --include-untracked
 ```
 
 ---

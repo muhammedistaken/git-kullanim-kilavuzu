@@ -17,8 +17,8 @@ git branch [seçenekler] [dal_adı]
 
 ## Örnekler
 1. Yeni dal oluşturmak:
-   ```bash
-git branch feature-yeni
+```bash
+    git branch feature-yeni
 ```
 2. Tüm dalları görmek:
    ```bash

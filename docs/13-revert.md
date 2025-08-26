@@ -8,22 +8,22 @@
 
 ## Kullanımı
 ```bash
-git revert <commit>
+    git revert <commit>
 ```
 - `<commit>`: Geri almak istediğiniz commit’in SHA’sı (örn. `a1b2c3d`).
 
 ## Örnekler
 1. Basit revert:
-   ```bash
-git revert a1b2c3d
+```bash
+    git revert a1b2c3d
 ```
 2. Hemen commit yapmadan revert değişikliklerini staging’e eklemek:
-   ```bash
-git revert -n a1b2c3d
+```bash
+    git revert -n a1b2c3d
 ```
 3. Merge commit için (hangi parent’a göre revert):
-   ```bash
-git revert -m 1 d4e5f6g
+```bash
+    git revert -m 1 d4e5f6g
 ```
 
 ## İpuçları

@@ -8,28 +8,28 @@
 
 ## Kullanımı
 ```bash
-git reset [mod] <commit>
+    git reset [mod] <commit>
 ```
 - `<mod>`: `--soft`, `--mixed` veya `--hard`.
 - `<commit>`: Taşınmak istediğiniz commit SHA’sı veya `HEAD~1` gibi bir referans.
 
 ## Örnekler
 1. Son commit’i staging alanına dokunmadan geri almak:
-   ```bash
-git reset --soft HEAD~1
+```bash
+    git reset --soft HEAD~1
 ```
 2. Staging temizlenerek HEAD’i geri almak:
-   ```bash
-git reset HEAD~1
+```bash
+    git reset HEAD~1
 ```
 3. Tüm değişiklikleri iptal edip son commit’e dönmek:
-   ```bash
-git reset --hard HEAD~1
+```bash
+    git reset --hard HEAD~1
 ```
 4. Uzak depo ile birebir eşitlemek:
-   ```bash
-git fetch origin
-git reset --hard origin/main
+```bash
+    git fetch origin
+    git reset --hard origin/main
 ```
 
 ## İpuçları

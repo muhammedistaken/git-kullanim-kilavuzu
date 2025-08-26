@@ -8,24 +8,24 @@
 
 ## Kullanımı
 ```bash
-git merge <kaynak_dal>
+    git merge <kaynak_dal>
 ```
 - `<kaynak_dal>`: Birleştirmek istediğiniz dalın adı (ör. `feature/login`).
 
 ## Örnekler
 1. `feature` dalını `develop` dalına eklemek:
-   ```bash
-git checkout develop
- git merge feature/login
+```bash
+    git checkout develop
+    git merge feature/login
 ```
 2. Fast-forward (hızlı) değil, her zaman yeni bir merge commit oluşturmak:
-   ```bash
-git merge --no-ff feature/login
+```bash
+    git merge --no-ff feature/login
 ```
 3. Squash yaparak tek commit oluşturmak:
-   ```bash
-git merge --squash feature/experiment
- git commit -m "Deneysel özellik tek commit olarak birleştirildi"
+```bash
+    git merge --squash feature/experiment
+    git commit -m "Deneysel özellik tek commit olarak birleştirildi"
 ```
 
 ## Çakışma (Conflict) Durumu

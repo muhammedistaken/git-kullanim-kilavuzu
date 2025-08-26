@@ -8,23 +8,23 @@
 
 ## Kullanımı
 ```bash
-git commit -m "Mesaj"
+    git commit -m "Mesaj"
 ```
 - `-m "Mesaj"`: Commit için kısa açıklama yazmanızı sağlar.
 
 ## Örnekler
 1. Hazır olan her şeyi commit etmek:
-   ```bash
-git add .
-git commit -m "Projeyi ilk haliyle kaydettim"
+```bash
+    git add .
+    git commit -m "Projeyi ilk haliyle kaydettim"
 ```
 2. Takip edilen dosyaları otomatik ekleyip commit etmek:
-   ```bash
-git commit -a -m "Küçük güncellemeler"
+```bash
+    git commit -a -m "Küçük güncellemeler"
 ```
 3. Son commit mesajını düzenlemek:
-   ```bash
-git commit --amend -m "Daha iyi açıklama"
+```bash
+    git commit --amend -m "Daha iyi açıklama"
 ```
 
 ## İpuçları

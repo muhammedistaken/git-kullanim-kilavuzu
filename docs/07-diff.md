@@ -8,7 +8,7 @@
 
 ## Kullanımı
 ```bash
-git diff [kaynak] [hedef]
+    git diff [kaynak] [hedef]
 ```
 - Hiç argüman koymazsanız: çalışma dizini ile staging alanı farkını gösterir.
 - `--staged` ya da `--cached`: staging alanı ile son commit arasındaki fark.
@@ -16,20 +16,20 @@ git diff [kaynak] [hedef]
 
 ## Örnekler
 1. Henüz eklemediğiniz değişiklikler:
-   ```bash
-git diff
+```bash
+    git diff
 ```
 2. Staging’den sonraki fark:
-   ```bash
-git diff --staged
+```bash
+    git diff --staged
 ```
 3. İki commit’i karşılaştırmak:
-   ```bash
-git diff abc123 def456
+```bash
+    git diff abc123 def456
 ```
 4. Sadece özet istatistik:
-   ```bash
-git diff --stat
+```bash
+    git diff --stat
 ```
 
 ## İpuçları

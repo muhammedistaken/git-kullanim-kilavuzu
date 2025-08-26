@@ -9,30 +9,30 @@ Dosyalarınızı Git’e kaydetmek için önce `git add` komutu ile onları “h
 
 ## Kullanımı
 ```bash
-git add <dosya_veya_klasör>...
+    git add <dosya_veya_klasör>...
 ```
 - İster tek dosya, ister tüm klasörleri ekleyebilirsiniz.
 
 ## Örnekler
 1. Tek bir dosya eklemek:
-   ```bash
-git add dosya.txt
+```bash
+    git add dosya.txt
 ```
 2. Tüm değişiklikleri (yeni, güncellenen, silinen) hazırlama alanına almak:
-   ```bash
-git add -A
+```bash
+    git add -A
 ```
 3. Sadece değiştirilen dosyaları eklemek:
-   ```bash
-git add -u
+```bash
+    git add -u
 ```
 4. Mevcut klasördeki her şeyi eklemek:
-   ```bash
-git add .
+```bash
+    git add .
 ```
 5. İnteraktif modda parçaları seçerek eklemek:
-   ```bash
-git add -p
+```bash
+    git add -p
 ```
 
 ## İpuçları

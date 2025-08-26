@@ -8,38 +8,38 @@
 
 ## Kullanımı
 ```bash
-git push [uzak_adı] [dal_adı]
+    git push [uzak_adı] [dal_adı]
 ```
 - `[uzak_adı]`: Genellikle `origin` (ilk klonladığınız depo).
 - `[dal_adı]`: Göndermek istediğiniz branch (örn. `main`, `develop`, `feature/login`).
 
 ## Örnekler
 1. Varsayılan ayarlarla push:
-   ```bash
-git push
+```bash
+    git push
 ```
    `origin` ve o anki dalı gönderir.
 
 2. Belirli bir dalı göndermek:
-   ```bash
-git push origin develop
+```bash
+    git push origin develop
 ```
    `origin` üzerine `develop` dalını aktarır.
 
 3. Zorla (force) push yapmak:
-   ```bash
-git push --force-with-lease origin feature/login
+```bash
+    git push --force-with-lease origin feature/login
 ```
    History’ye sonradan müdahale ettiyseniz kullanılır (dikkatli olun).
 
 4. Tüm branch’ leri göndermek:
-   ```bash
-git push --all
+```bash
+    git push --all
 ```
 
 5. Tüm etiketleri (tags) de göndermek:
-   ```bash
-git push --tags
+```bash
+    git push --tags
 ```
 
 ## İpuçları
