@@ -2,7 +2,7 @@
 
 Merhaba! Bu rehberde, Git ve GitHub dünyasına ilk adımınızı atarken veya var olan bilginizi pekiştirirken ihtiyacınız olacak tüm komutları teker teker ele alıyoruz. Amacımız, karmaşık terimlerle boğmak yerine adım adım, günlük hayatınıza uyarlayabileceğiniz örneklerle anlatmak.
 
-Ben Muhammed, yazılım yolculuğum boyunca Git’i öğrenme sürecimde karşılaştığım sıkıntıları bu rehberde gidermek istedim. Her komutta ne işe yaradığını, nasıl kullanıldığını ve nerede işinize yarayacağını anlatan açıklamalar, işe yarar ipuçları ve en yaygın senaryolardan derlediğimiz örnekler bulacaksınız.
+Yazılım yolculuğum boyunca Git’i öğrenme sürecimde karşılaştığım sıkıntıları bu rehberde gidermek istedim. Her komutta ne işe yaradığını, nasıl kullanıldığını ve nerede işinize yarayacağını anlatan açıklamalar, işe yarar ipuçları ve en yaygın senaryolardan derlediğimiz örnekler bulacaksınız.
 
 Aşağıdaki bölümde önce kısa teorik bilgilere, ardından da en sık kullanılan 20 Git komutunun detaylı anlatımına ulaşabilirsiniz. Kendi hızınızda ilerleyin, örnekleri kendi depolarınızda deneyin ve takıldığınız noktaları GitHub üzerinden paylaşın.
 
