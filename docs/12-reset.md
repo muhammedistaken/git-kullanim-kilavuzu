@@ -1,6 +1,10 @@
 # 12. git reset
 
-`git reset`, HEAD’inizi başka bir commit’e taşır ve staging ile çalışma dizininizin durumunu istediğiniz gibi ayarlar. Üç modu var:
+`git reset`, HE## İpuçları
+- `--hard` kullanmadan önce önemli değişikliklerinizi yedekleyin, geri dönüş zor olabilir.
+- Hangi commit'leri geri alabileceğinizi `git reflog` ile görün.
+
+**Önceki**: [11. git rebase](11-rebase.md) &nbsp;|&nbsp; **Sonraki**: [13. git revert](13-revert.md)zi başka bir commit’e taşır ve staging ile çalışma dizininizin durumunu istediğiniz gibi ayarlar. Üç modu var:
 
 - `--soft`: Sadece HEAD taşınır, staging ve dosyalar olduğu gibi kalır.
 - `--mixed` (varsayılan): HEAD taşınır, staging temizlenir, dosyalar değişmeden kalır.

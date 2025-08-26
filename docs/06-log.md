@@ -1,6 +1,13 @@
 # 06. git log
 
-`git log` komutu, projenizde yaptığınız tüm commit’leri (kaydedilen adımları) listeler. Kimin, ne zaman ne eklediğini, hangi mesajla kaydedildiğini görebilirsiniz.
+`git log` komutu, proj## İpuçları
+- Uzun listeyi sayfa sayfa görmek için `| less` ekleyin:
+  ```bash
+git log | less
+```
+- Tarihe, yazara veya mesaj anahtar kelimesine göre filtreleyebilirsiniz.
+
+**Önceki**: [05. git status](05-status.md) &nbsp;|&nbsp; **Sonraki**: [07. git diff](07-diff.md)ptığınız tüm commit’leri (kaydedilen adımları) listeler. Kimin, ne zaman ne eklediğini, hangi mesajla kaydedildiğini görebilirsiniz.
 
 ## Ne Zaman Kullanılır?
 - Geçmiş commit’lere bakmak istediğinizde

@@ -37,5 +37,4 @@ git branch acil-fix abc1234
 - Dal isimlerinde `feature/`, `bugfix/` gibi standart kullanarak düzen sağlayın
 - Silmeden önce dalın birleştirildiğinden emin olun
 
----
-_Bu komut, paralel geliştirmeyi kolaylaştırmak için vazgeçilmezdir._
+**Önceki**: [07. git diff](07-diff.md) &nbsp;|&nbsp; **Sonraki**: [09. git checkout](09-checkout.md)

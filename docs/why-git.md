@@ -10,6 +10,3 @@ Günümüzde yazılım projeleri; sürekli güncelleniyor, ekipler uzaktan çal�
 
 ## Örnek Senaryo
 Ahmet ve Ayşe aynı projede çalışıyor. Ahmet yeni bir özellik eklerken Ayşe hata düzeltmesi yapıyor. Git sayesinde her ikisi de kendi dalında ilerler, sonunda kodlar birleştirilip canlıya alınır.
-
----
-_Bu dosya, Git’in neden vazgeçilmez olduğunu kısa örneklerle anlatır._

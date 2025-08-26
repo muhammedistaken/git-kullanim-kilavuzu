@@ -39,5 +39,4 @@ Dosyalarınızı Git’e kaydetmek için önce `git add` komutu ile onları “h
 - `git status` ile hangi dosyaların hazır olduğunu kontrol edin.
 - Yanlış eklediğiniz dosyaları `git reset <dosya>` ile geri alabilirsiniz.
 
----
-_Bu komut, commit öncesi hangi değişikliklerin kaydedileceğini seçmek için çok işinize yarar._
+**Önceki**: [02. git clone](02-clone.md) &nbsp;|&nbsp; **Sonraki**: [04. git commit](04-commit.md)

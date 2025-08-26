@@ -44,5 +44,4 @@ git config [<options>] [<key> [<value>]]
 - `git config -l` ile tüm ayarları listeleyin.
 - `.gitconfig` dosyasını manuel düzenlerken dikkatli olun; format hataları yapmayın.
 
----
-_Tüm örnekler güncel Git sürümlerinde test edilmiştir._
+**Önceki**: [19. git remote](19-remote.md) &nbsp;|&nbsp; **Sonraki**: -

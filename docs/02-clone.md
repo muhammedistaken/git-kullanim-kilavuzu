@@ -43,5 +43,4 @@ Git deposunu uzaktan (örneğin GitHub’dan) bilgisayarınıza kopyalar. Böyle
 - Büyük projelerde `--depth 1` ekleyerek sadece son commit’i indirip zamandan tasarruf edin.
 - SSH anahtarınız yoksa önce GitHub’da SSH anahtarınızı ekleyin veya HTTPS kullanın.
 
----
-_Bu örnekler günlük kullanımda denenmiştir ve her ortamda çalışır._
+**Önceki**: [01. git init](01-init.md) &nbsp;|&nbsp; **Sonraki**: [03. git add](03-add.md)

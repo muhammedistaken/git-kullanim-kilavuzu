@@ -13,6 +13,3 @@ Git ve GitHub, genellikle birlikte anılsa da farklı araçlardır:
 - Yerel bir değişikliği kaydetmek için: `git commit -m "Mesaj"`
 - Bu değişikliği herkese açmak için: `git push` (GitHub’a gönderme)
 - GitHub’da Pull Request oluşturarak kod inceleme sürecini başlatabilirsiniz.
-
----
-_Bu dosya, Git ile GitHub’ın rollerini netleştirir._

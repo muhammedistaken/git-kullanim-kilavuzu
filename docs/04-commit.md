@@ -32,5 +32,4 @@
 - Detaylı açıklama gerekiyorsa `git commit` yazıp editörde açarak ikinci paragrafı ekleyin.
 - `--amend` sadece daha önce push etmediyseniz güvenle kullanın.
 
----
-_Bu örnekler, günlük projelerinizde rahatlıkla kullanabileceğiniz şekilde basitleştirilmiştir._
+**Önceki**: [03. git add](03-add.md) &nbsp;|&nbsp; **Sonraki**: [05. git status](05-status.md)

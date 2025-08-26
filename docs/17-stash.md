@@ -1,6 +1,13 @@
 # 17. git stash
 
-`git stash`, üzerinde çalıştığınız değişiklikleri bir kenara koyar ve çalışma alanınızı temizler. Örneğin acil bir işe geçmeniz gerekiyorsa ama kodunuz hazır değilse stash imdadınıza yetişir.
+`git stash`, üzeri## İpuçları
+- `git stash list` ile tüm saklamalarınızı görün.
+- Untracked veya ignored dosyaları da stash'e eklemek için:
+  ```bash
+git stash push --include-untracked
+```
+
+**Önceki**: [16. git fetch](16-fetch.md) &nbsp;|&nbsp; **Sonraki**: [18. git tag](18-tag.md)tığınız değişiklikleri bir kenara koyar ve çalışma alanınızı temizler. Örneğin acil bir işe geçmeniz gerekiyorsa ama kodunuz hazır değilse stash imdadınıza yetişir.
 
 ## Ne Zaman Kullanılır?
 - Yarıda bıraktığınız işi kaybetmeden başka bir dala geçmek istediğinizde

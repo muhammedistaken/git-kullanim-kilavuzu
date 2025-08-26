@@ -13,6 +13,3 @@ Git’te sık kullanılan bazı kavramlar:
 - **Commit**: Kitabınızda ayraç koymak gibi, ileriki sayfaya dönmek için işaretler.
 - **Branch**: Aynı hikâyeyi farklı sonlarla denemek için ayrı kopyalar.
 - **Merge**: Denediğiniz farklı sonları tek bir hikâyede birleştirmek.
-
----
-_Bu dosya, Git’in temel yapı taşlarını kısaca açıklar._

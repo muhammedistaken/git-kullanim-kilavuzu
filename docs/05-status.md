@@ -38,5 +38,4 @@
 - Dosyalarla oynamadan önce `git status` ile durum kontrolü yapın.
 - Hazırlama alanını temizlemek için `git reset` veya `git checkout -- <dosya>` kullanın.
 
----
-_Bu komut, projenizin nabzını tutmak için ilk bakmanız gereken yer._
+**Önceki**: [04. git commit](04-commit.md) &nbsp;|&nbsp; **Sonraki**: [06. git log](06-log.md)

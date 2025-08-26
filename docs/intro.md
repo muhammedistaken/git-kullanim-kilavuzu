@@ -15,6 +15,3 @@ Git, bilgisayarınızdaki dosya değişikliklerini takip eden ve projeyi daha g�
 
 ## Günlük Hayattan Örnek
 Bir fotoğraf albümünüz var ve her düzenleme yaptığınızda yeni bir kopya saklamaya benzetebilirsiniz. Git, bu kopyaları satır satır saklayarak dilediğiniz an eski bir sürüme geçmenize yardım eder.
-
----
-_Bu dosya, Git’e giriş niteliği taşır; sıradaki bölümlerde detaylara geçiyoruz._

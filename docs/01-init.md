@@ -32,5 +32,4 @@ git init [klasör_adı]
 - Komutu çalıştırmadan önce `pwd` ile doğru dizinde olduğunuzu kontrol edin.
 - Projenizi izlemeye başlamadan önce `.gitignore` dosyası ekleyin.
 
----
-_Burada basit örneklerle, günlük projelerinizde hemen kullanabileceğiniz şekilde anlatıldı._
+**Önceki**: - &nbsp;|&nbsp; **Sonraki**: [02. git clone](02-clone.md)

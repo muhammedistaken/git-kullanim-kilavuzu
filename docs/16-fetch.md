@@ -30,5 +30,4 @@
 - Fetch sonrası `git log origin/main` veya `git diff main origin/main` ile farkı görün.
 - `pull` yerine `fetch` + `merge`/`rebase` yaparak kontrolü elinizde tutun.
 
----
-_Bu komut, uzak deponun güncel halini güvenli bir şekilde indirmenizi sağlar._
+**Önceki**: [15. git pull](15-pull.md) &nbsp;|&nbsp; **Sonraki**: [17. git stash](17-stash.md)

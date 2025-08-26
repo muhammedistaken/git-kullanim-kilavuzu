@@ -36,9 +36,10 @@
     git pull --rebase --autostash
 ```
 
+---
+
 ## İpuçları
 - Otomatik merge yerine `fetch` + `merge/rebase` ile adım adım kontrol edebilirsiniz.
 - Çakışma çıkarsa `git status` ve `git rebase --continue` veya `git merge` ile çözün.
 
----
-_Bu komut, uzak ve yerel deponuzu güncel tutmanın en kolay yoludur._
+**Önceki**: [14. git push](14-push.md) &nbsp;|&nbsp; **Sonraki**: [16. git fetch](16-fetch.md)

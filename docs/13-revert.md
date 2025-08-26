@@ -1,6 +1,10 @@
 # 13. git revert
 
-`git revert`, seçtiğiniz bir commit’in yaptığı değişiklikleri geri alacak yeni bir commit oluşturur. Proje geçmişini bozmadan hatalı adımları geri almak için kullanılır.
+`git rev## İpuçları
+- `git log` ile commit SHA'sını doğru aldığınızdan emin olun.
+- Merge commit'lerde `-m` parametresiyle hangi ana hataya göre geri alacağınızı seçin.
+
+**Önceki**: [12. git reset](12-reset.md) &nbsp;|&nbsp; **Sonraki**: [14. git push](14-push.md)seçtiğiniz bir commit’in yaptığı değişiklikleri geri alacak yeni bir commit oluşturur. Proje geçmişini bozmadan hatalı adımları geri almak için kullanılır.
 
 ## Ne Zaman Kullanılır?
 - Yanlış bir commit’i tamamen silmek yerine düzeltmek istediğinizde

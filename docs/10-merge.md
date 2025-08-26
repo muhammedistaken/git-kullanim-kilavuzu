@@ -1,6 +1,10 @@
 # 10. git merge
 
-`git merge`, üzerinde çalıştığınız dala başka bir dalın değişikliklerini ekler. Diyelim ki `feature/login` üzerinde çalıştınız ve bu kodu `develop` dalına katmak istiyorsunuz.
+`git merge`, üze## İpuçları
+- Merge'den önce `git fetch` veya `git pull --rebase` ile dallarınızı güncel tutun.
+- Karmaşık çatışmalarda `git mergetool` kullanabilirsiniz.
+
+**Önceki**: [09. git checkout](09-checkout.md) &nbsp;|&nbsp; **Sonraki**: [11. git rebase](11-rebase.md)çalıştığınız dala başka bir dalın değişikliklerini ekler. Diyelim ki `feature/login` üzerinde çalıştınız ve bu kodu `develop` dalına katmak istiyorsunuz.
 
 ## Ne Zaman Kullanılır?
 - Farklı dallardaki işleri birleştirip tek bir dala toplamak istediğinizde

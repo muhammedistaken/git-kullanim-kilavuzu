@@ -1,6 +1,10 @@
 # 11. git rebase
 
-`git rebase`, bir dalın (örneğin `feature`), başka bir dalın (örneğin `main`) en son halinin üzerine taşınmasını sağlar. Böylece daha temiz ve düz bir commit geçmişi elde edersiniz.
+`git rebase`, bir d## İpuçları
+- Paylaşılan (public) dallarda rebase'ten kaçının; başkalarının iş akışını bozmayın.
+- Rebase sonrası `git push --force-with-lease` ile güvenli push yapın.
+
+**Önceki**: [10. git merge](10-merge.md) &nbsp;|&nbsp; **Sonraki**: [12. git reset](12-reset.md)örneğin `feature`), başka bir dalın (örneğin `main`) en son halinin üzerine taşınmasını sağlar. Böylece daha temiz ve düz bir commit geçmişi elde edersiniz.
 
 ## Ne Zaman Kullanılır?
 - Commit geçmişini düzenli ve lineer tutmak istediğinizde

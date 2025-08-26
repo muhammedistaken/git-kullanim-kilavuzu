@@ -36,5 +36,4 @@
 - `| less -R` ekleyerek sayfa sayfa inceleyin.
 - Renkli görmek için terminal ayarlarınızı kontrol edin.
 
----
-_Bu örneklerle farkları hızlıca tespit edebilirsiniz._
+**Önceki**: [06. git log](06-log.md) &nbsp;|&nbsp; **Sonraki**: [08. git branch](08-branch.md)
